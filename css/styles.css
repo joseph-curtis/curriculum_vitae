@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #333;
+}
+#footer-padding {
+  margin-bottom: 100px;
+}
